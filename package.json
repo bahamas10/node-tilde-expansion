@@ -1,0 +1,27 @@
+{
+  "name": "tilde-expansion",
+  "description": "Expand a ~ character to a users home directory like bash",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-tilde-expansion.git"
+  },
+  "scripts": {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo 'Passed!'"
+  },
+  "dependencies": {
+    "etc-passwd": "0.0.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "tilde",
+    "expansion",
+    "bash"
+  ]
+}
